@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+  	color:blue;
+	}
+img{
+	display:inline-block;
+   }
+	
+.div1{
+       height:100px;
+        margin:10px;
+     }
+body { 
+       background-image: url('amandeep.jpg');
+       background-repeat: no-repeat;
+       background-attachment: scroll;
+       background-position: center; 
+    }
+
+.top-left{
+	  position:fixed;
+	  height:100px;
+	  width:100px;
+        }
+.top-right{
+            position:fixed;
+	    height:100px;
+	    width:100px;
+            right:0px;
+          }
+</style>
+</head>
+<body>
+<div class="div1"> 
+<img src="amandeep.jpg" alt="mountain" class="top-left">
+<img src="amandeep.jpeg" alt="mountain" class="top-right">
+</div>
+<div align="center">
+<h1>Welcome To CSS Background-Position Property</h1>
+<h1>Welcome To CSS Background-Position Property</h1>
+<h1>Welcome To CSS Background-Position Property</h1>
+<h1>Welcome To CSS Background-Position Property</h1>
+<h1>Welcome To CSS Background-Position Property</h1>
+<h1>Welcome To CSS Background-Position Property</h1>
+
+</div>
+</body>
+</html>
